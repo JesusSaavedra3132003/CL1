@@ -1,0 +1,18 @@
+package com.jesus.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.jesus.entity.Silla;
+import com.jesus.repository.SillaRepository;
+
+@Service
+public class SillaService {
+
+	@Autowired
+	private SillaRepository sillaRepo;
+	
+	public void registrar(Silla sil) {
+		sillaRepo.save(sil)
+	}
+}

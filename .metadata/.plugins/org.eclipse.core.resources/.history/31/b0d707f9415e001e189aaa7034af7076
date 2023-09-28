@@ -1,0 +1,5 @@
+package com.jesus.entity;
+
+public class Marca {
+
+}

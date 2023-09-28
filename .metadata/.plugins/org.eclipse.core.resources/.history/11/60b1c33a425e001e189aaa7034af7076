@@ -1,0 +1,7 @@
+package com.jesus.repository;
+
+import org.springframework.data.jpa.repository.cdi.JpaRepository;
+
+public class MarcaRepository extends JpaRepository {
+
+}
